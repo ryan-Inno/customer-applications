@@ -1,0 +1,66 @@
+.button-footer {
+    .submit {
+        margin: 15px;
+        background: #FF8D00;
+        border: 1px solid #FF8D00;
+        border-radius: 50px;
+        color: #fff;
+        padding: 10px 50px;
+        transition: 0.5s ease;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: Roboto!important;
+        cursor: pointer;
+    }
+
+    .disable-button {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+}
+
+.rc-anchor-wrapper {
+    margin-left: 20px;
+}
+
+.message-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .back {
+        margin: 15px;
+        background: #FF8D00;
+        border: 1px solid #FF8D00;
+        border-radius: 50px;
+        color: #fff;
+        padding: 10px 30px;
+        transition: 0.5s ease;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: Roboto!important;
+        cursor: pointer;
+    }
+}
+
+.flex {    
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #224f99;
+    font-family: Roboto !important;
+    
+    label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    input.checkbox {
+        margin-right: 10px;        
+        width: 20px;
+        height: 20px;
+    }
+}
